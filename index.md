@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  	<title> *** Temperatura e Umidade ***</title>
+  	<meta http-equiv="refresh" content="200">
+	<link rel="stylesheet" href="site_temp.css">
+
+</head>
+	
+
+<body>
+
+<style>
+	body { 
+		background-color: #181818
+	}
+</style> 	
+
+
+<h1 style="color:#ffff55"> <center>        T E M P E R A T U R A & H U M I D A D E   </h1>
+
+<h2>
+
+	<table align="center">
+
+	<tr> 
+		<th> </th>
+		<th> </th>
+		<th> </th>
+		<th> </th>
+		<th> </th>
+
+	</tr>
+
+	<tr> 
+		<th> </th>
+		<th> TEMPERATURA</th>
+		<th> HUMIDADE</th>
+		<th> LOCALIZAÇÃO </th>
+		<th> </th>
+
+	</tr>
+
+	<tr> 
+		<th> </th>
+		<th> <iframe width=450 height=250 src="https://thingspeak.com/channels/1604416/charts/1?bgcolor=%23ffffff&color=%23d62020&days=15&dynamic=true&results=5000&timescale=10&title=Temperatura&type=step&xaxis=dia%2Fhora" title="TEMPERATURA">
+			</iframe>  </th>
+		<th> <iframe width=450 height=250 src="https://thingspeak.com/channels/1604416/charts/2?bgcolor=%23ffffff&color=%23d62020&days=15&dynamic=true&results=6000&timescale=10&title=Umidade&type=line" title="HUMIDADE">
+			</iframe> </th>
+		<th> <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1604416/maps/channel_show"></iframe> </th>
+		<th> </th>
+
+	</tr>
+
+	<tr> 
+		<th> </th>
+		<th> <iframe width=450 height=260  src="https://thingspeak.com/channels/1604416/widgets/395328"></iframe> </th>
+		<th> <iframe width=450 height=260  src="https://thingspeak.com/channels/1604416/widgets/395329"></iframe> </th>
+		<th> <iframe width=450 height=260  src="https://thingspeak.com/apps/matlab_visualizations/464129"></iframe></th>
+		<th> </th>
+		
+
+
+	</tr>
+
+
+	<tr> 
+		<th> </th>
+		<th> </th>
+		<th> </th>
+		<th> </th>
+		<th> </th>
+
+	</tr>
+	<H3><center> A atualização da página ocorre a cada 60 segundos	</center></H3>
+</h2>
+</body>
+</html>
